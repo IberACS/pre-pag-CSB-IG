@@ -1,0 +1,17 @@
+{
+  "name": "CSB-IG",
+  "description": "INMEGEN",
+  "main": "index.html",
+  "moduleType": [],
+  "authors":  "IberACS",
+  "license": "AS IS",
+  "homepage": "Home",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

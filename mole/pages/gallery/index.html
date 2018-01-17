@@ -1,0 +1,70 @@
+---
+layout: page
+title: "Gallery"
+description: "Computational Systems Biology - Integrative Genomics"
+header-img: "assets/owner/hero/Basal_gallery.jpeg"
+permalink: /gallery/
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+
+<h3><a href="http://www.inmegen.gob.mx/noticias/?lang=en">Noticias</a> Instituto Nacional de Medicina Genómica</h3>
+
+<!-- CSS -->
+	<link rel="stylesheet" href="../assets/libs/css/flexslider.css" type="text/css" media="screen" />
+
+</head>
+
+    <body>
+  <!-- slider -->
+    <section class="slider">
+	<div class="flexslider">
+   <ul class="slides">
+    <li>
+      <img src="{{root_url}}/assets/owner/slider/gal_1.jpeg" />
+<p class="flex-caption">Source: <a href="https://github.com/CSB-IG">CSB-IG Group</a></p>
+    </li>
+    <li>
+      <img src="{{root_url}}/assets/owner/slider/gal_2.jpeg" />
+<p class="flex-caption">Source: <a href="https://github.com/CSB-IG">CSB-IG Group</a></p>
+    </li>
+    <li>
+      <img src="{{root_url}}/assets/owner/slider/gal_3.jpeg" />
+<p class="flex-caption">Source: <a href="https://github.com/CSB-IG">CSB-IG Group</a></p>
+    </li>
+      </ul>
+</div>
+      </section>
+
+<!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <!-- FlexSlider -->
+  <script defer src="../assets/libs/js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        slideshow: "false",
+        slideshowSpeed: "12000",
+        pausePlay: "true",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+<br>
+<h6>Instituto nacional de medicina Genómica: <a href="http://www.inmegen.gob.mx/">INMEGEN</a>
+
+
+
+</body></html>
